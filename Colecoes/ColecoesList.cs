@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; // Precisa desse import para utilizar o Generics: <Produto> (Exceto para o ArrayList, que não precisa importar o Generics)
 using System.Text;
 
 namespace CursoCSharp.Colecoes
@@ -13,6 +13,22 @@ namespace CursoCSharp.Colecoes
         {
             Nome = nome;
             Preco = preco;
+        }
+
+        public override bool Equals(object obj) // Implementando para fazer comparações de objetos sem ser por Endereço de Memória
+        {
+            var produto = obj as Produto;
+            return produto != null &&
+                   Nome == produto.Nome &&
+                   Preco == produto.Preco;
+        }
+
+        public override int GetHashCode() // Implementando para fazer comparações de objetos sem ser por Endereço de Memória
+        {
+            var hashCode = -347481536;
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Nome);
+            hashCode = hashCode * -1521134295 + Preco.GetHashCode();
+            return hashCode;
         }
     }
 
@@ -41,6 +57,10 @@ namespace CursoCSharp.Colecoes
                 Console.WriteLine(carrinho.IndexOf(item)); // Pega o índice do item na Lista
                 Console.WriteLine($"{item.Nome} {item.Preco}");
             }
+
+            Console.WriteLine(carrinho.Count);
+            carrinho.Add(livro); // List aceita repetição (2 elementos iguais)
+            Console.WriteLine(carrinho.Count);
         }
     }
 }
