@@ -5,7 +5,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
-//using CursoCSharp.OO;
+using CursoCSharp.OO;
 //using CursoCSharp.MetodosEFuncoes;
 //using CursoCSharp.Excecoes;
 //using CursoCSharp.Api;
@@ -74,9 +74,9 @@ namespace CursoCSharp {
                 { "Dictionary - Coleções", ColecoesDictionary.Executar},
 
                 //// OO
-                //{ "Herança - OO", Heranca.Executar},
-                //{ "Construtor This - OO", ConstrutorThis.Executar},
-                //{ "Encapsulamento - OO", OO.Encapsulamento.Executar},
+                { "Herança - OO", Heranca.Executar},
+                { "Construtor This - OO", ConstrutorThis.Executar},
+                { "Encapsulamento - OO", OO.Encapsulamento.Executar},
                 //{ "Polimorfismo - OO", Polimorfismo.Executar},
                 //{ "Abstract - OO", Abstract.Executar},
                 //{ "Interface - OO", Interface.Executar},
