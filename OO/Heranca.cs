@@ -63,7 +63,7 @@ namespace CursoCSharp.OO
             return AlterarVelocidade(15);
         }
 
-        // Sobreescrevendo um método da classe pai, porém ocultando-o dela. Dessa forma não precisa que o modificador 'virtual' seja utilizado no método da classe pai
+        // Sobreescrevendo um método da classe pai, porém ocultando-o dela usando o 'new'. Dessa forma não precisa que o modificador 'virtual' seja utilizado no método da classe pai
         // Porém, ao fazer um polimorfismo dinâmico [Tipo mais genérico (carro) recebe um tipo mais específico (Ferrari) ao instanciar o objeto], ele não chamará o método sobreescrito
         public new int Frear()
         {

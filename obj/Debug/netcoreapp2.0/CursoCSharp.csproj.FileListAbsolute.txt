@@ -9,3 +9,6 @@ C:\Users\crgfi\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp2.0\Curs
 C:\Users\crgfi\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp2.0\CursoCSharp.AssemblyInfo.cs
 C:\Users\crgfi\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp2.0\CursoCSharp.dll
 C:\Users\crgfi\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp2.0\CursoCSharp.pdb
+C:\Users\crgfi\source\repos\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp2.0\Encapsulamento.dll
+C:\Users\crgfi\source\repos\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp2.0\Encapsulamento.pdb
+C:\Users\crgfi\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp2.0\CursoCSharp.csproj.CopyComplete

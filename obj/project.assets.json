@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Encapsulamento/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        }
       }
     }
   },
@@ -668,10 +678,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Encapsulamento/1.0.0": {
+      "type": "project",
+      "path": "../Encapsulamento/Encapsulamento.csproj",
+      "msbuildProject": "../Encapsulamento/Encapsulamento.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Encapsulamento >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -704,7 +720,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\crgfi\\source\\repos\\CursoCSharp\\Encapsulamento\\Encapsulamento.csproj": {
+              "projectPath": "C:\\Users\\crgfi\\source\\repos\\CursoCSharp\\Encapsulamento\\Encapsulamento.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
