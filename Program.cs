@@ -7,7 +7,7 @@ using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
-//using CursoCSharp.Excecoes;
+using CursoCSharp.Excecoes;
 //using CursoCSharp.Api;
 //using CursoCSharp.TopicosAvancados;
 
@@ -91,8 +91,8 @@ namespace CursoCSharp {
                 { "Métodos de Extensão - Métodos & Funções", MetodosDeExtensao.Executar},
 
                 //// Exceções
-                //{ "Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
-                //{ "Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+                { "Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
+                { "Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
 
                 //// Api
                 //{ "Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
